@@ -1,0 +1,10 @@
+#-- tomcat server configuration
+server:
+  # application port number.
+  port: 8080
+
+#-- product service properties
+data:
+  bad-words-file: data/bad-words.txt
+  is-local-storage-mode: true
+
